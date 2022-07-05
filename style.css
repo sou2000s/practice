@@ -2,10 +2,24 @@
     margin: 0;
     padding: 0;
 }
+
+/* hero*/
+
 .main{
     display: flex;
 }
 
+.main h1{
+    color: coral;
+
+}
+.main .eat{
+  color: burlywood;
+}
+
+.main .network{
+    color: aquamarine;
+}
 .main .text{
     width: 50%;
     padding-left: 15%;
@@ -17,6 +31,26 @@
 .main .img{
     width: 50%;
 }
+
+.main p{
+    padding-top:2% ;
+}
+
+.main a{
+   text-decoration: none;
+  font-size: 20px;
+  color: brown;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.main a:hover{
+    background-color: bisque;
+}
+
+
+/* nav bar*/
 nav{
     display: flex;
     justify-content: center;
