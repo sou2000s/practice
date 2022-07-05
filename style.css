@@ -4,7 +4,6 @@
 }
 
 /* hero*/
-
 .main{
     display: flex;
 }
@@ -53,6 +52,8 @@
     margin-bottom: 80px;
 }
 
+
+
 /* nav bar*/
 nav{
     display: flex;
@@ -83,6 +84,7 @@ nav li:hover{
     width: 50%;
     padding-left: 20%;
     padding-top: 10%;
+    margin-top: 11%;
   
 }
 
@@ -104,6 +106,12 @@ nav li:hover{
 }
 
 /*my recipes*/
+.my-recepi{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 h1{
     text-align: center;
@@ -125,4 +133,97 @@ h1{
 
 .recepi p span{
     margin-left: 160px;
+}
+
+
+.recepi-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10% ;
+    
+}
+
+.recepi-box img{
+  width: 300px;
+  padding: 25px;
+  margin-left: 25%;
+
+}
+.recepi-1{
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 400px;
+ 
+    box-shadow: 0 0 20px 20px rgb(229, 225, 225);
+}
+.recipi-tittle{
+   font-size: 25px;
+   margin-bottom: 3%;
+   padding: 3%;
+}
+
+.recepi-1 p{
+    text-align: justify;
+    padding: 3%; 
+   
+}
+.recepi-2{
+    margin-left: 5%;
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 10px;
+    /*box-shadow:10px 5px 15px rgb(171, 155, 155) ;*/
+    box-shadow: 0 0 20px 20px rgb(229, 225, 225);
+}
+
+.recepi-2 p{
+    padding: 3%;
+}
+
+.tittle{
+    font-size: 25px;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+
+/*social*/
+.social-section{
+ padding: 100px;
+}
+.social{
+    display: flex;
+   justify-content: space-evenly;
+   box-shadow: 0 0 20px 20px rgb(231, 228, 228);
+  height: 280px;
+  border-radius: 50px;
+   
+}
+
+
+.youtube{
+    margin-top: 4%;
+}
+
+.Facebook{
+    margin-top: 4%;
+}
+.Insta{
+    margin-top: 4%;
+}
+
+
+/*footer*/
+
+footer div{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(62, 61, 62);
+    height: 200px;
+}
+
+footer  h1{
+  margin-top: 4%;
 }
