@@ -91,9 +91,38 @@ nav li:hover{
     padding: 10%;
     font-size: 30px;
 }
-
+.about-me p{
+    margin-bottom: 20%;
+}
 .about-me a{
     margin-top: 20px;
     background-color: black;
     color: brown;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px; 
+}
+
+/*my recipes*/
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.recepi{
+    
+    width: 50%;
+    margin-left: 753px;
+}
+
+.recepi p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.recepi p span{
+    margin-left: 160px;
 }
