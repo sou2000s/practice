@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+
+.main .text{
+    width: 50%;
+    padding-left: 15%;
+    padding-top: 12%;
+    font-size: 35px;
+    
+}
+
+.main .img{
+    width: 50%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:brown;
+}
+nav li{
+    padding: 20px; 
+    list-style: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+nav li:hover{
+  background-color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
